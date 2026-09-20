@@ -1,5 +1,6 @@
 body {
             margin: 0;
+            background-color: bisque;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -27,4 +28,9 @@ body {
         footer {
             margin-top: auto;
             padding: 1rem;
+        }
+        h1, h3, p {
+            font-family: "Coiny", system-ui;
+            font-weight: 400;
+            font-style: normal;
         }
